@@ -1,0 +1,30 @@
+{
+  "name": "static-html-output-plugin-6.6.8-gb",
+  "version": "6.6.8",
+  "description": "unofficial package made from WP2Static 6.6.7. Aimed at fixing github pages export functionality for windows environement",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaspard-Bourgeois/wp2static.git"
+  },
+  "keywords": [
+    "WP2Static",
+    "wordpress",
+    "plugin",
+    "github-pages",
+    "unofficial"
+  ],
+  "author": "Gaspard BOURGEOIS <gaspard.github.io@free.fr> (gaspard-bourgeois.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaspard-Bourgeois/wp2static/issues"
+  },
+  "homepage": "https://github.com/Gaspard-Bourgeois/wp2static#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@gaspard-bourgeois"
+  }
+}
